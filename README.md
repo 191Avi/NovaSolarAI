@@ -28,4 +28,4 @@ Built with FastAPI, PyTorch, XGBoost — MVP in development.
 ## Founder
 AVIJIT SAHA APU  
 Email: avijitsahaa236@gmail.com  
-Contributions welcome! Star the repo for updates.
+
