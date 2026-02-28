@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NovaSolar AI | Autonomous Solar Intelligence</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #050816;
+    color: #ffffff;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 10%;
+    position: absolute;
+    width: 80%;
+    z-index: 10;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 500;
+}
+
+.hero {
+    height: 100vh;
+    background: radial-gradient(circle at top right, #0ea5e9, #050816 60%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 10%;
+}
+
+.hero h1 {
+    font-size: 56px;
+    font-weight: 900;
+    max-width: 900px;
+    line-height: 1.2;
+}
+
+.hero span {
+    background: linear-gradient(90deg, #22d3ee, #22c55e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+    margin-top: 25px;
+    font-size: 20px;
+    max-width: 750px;
+    color: #cbd5e1;
+}
+
+.button {
+    margin-top: 40px;
+    padding: 15px 35px;
+    background: linear-gradient(90deg, #22d3ee, #22c55e);
+    color: #050816;
+    font-weight: 700;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.section {
+    padding: 120px 10%;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 42px;
+    margin-bottom: 70px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+.service-card {
+    background: rgba(255,255,255,0.05);
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    transition: 0.4s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    background: rgba(255,255,255,0.08);
+}
+
+.service-card h3 {
+    color: #22d3ee;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    background: #020617;
+    color: #94a3b8;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div><strong>NovaSolar AI</strong></div>
+<div>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+
+<section class="hero">
+<h1>
+The <span>Autonomous Intelligence Layer</span> Powering the Future of Solar Infrastructure
+</h1>
+<p>
+The world’s first unified AI platform for optimization, asset protection, and intelligent energy monetization across all climates and grids.
+</p>
+<a href="#services" class="button">Explore Technology</a>
+</section>
+
+<section class="section" id="services">
+<h2>Core Services</h2>
+
+<div class="services-grid">
+
+<div class="service-card">
+<h3>Autonomous Yield Optimization</h3>
+<p>Hybrid AI forecasting and real-time inverter control delivering 20–40% solar performance improvement.</p>
+</div>
+
+<div class="service-card">
+<h3>Predictive Asset Protection</h3>
+<p>Advanced anomaly detection and preventive intelligence to protect revenue-generating infrastructure.</p>
+</div>
+
+<div class="service-card">
+<h3>VPP Trading Intelligence</h3>
+<p>Reinforcement learning engine optimizing energy market bidding and dispatch strategies.</p>
+</div>
+
+<div class="service-card">
+<h3>Real-Time Energy Analytics</h3>
+<p>IoT data ingestion, satellite forecasting, and live performance dashboards.</p>
+</div>
+
+<div class="service-card">
+<h3>Climate & Grid Adaptability</h3>
+<p>Hardware-agnostic AI compatible with diverse geographies and regulatory environments.</p>
+</div>
+
+<div class="service-card">
+<h3>AI-Driven Monetization</h3>
+<p>Automated revenue optimization through smart grid participation and demand-response systems.</p>
+</div>
+
+</div>
+</section>
+
+<section class="section" id="contact">
+<h2>Build the Future of Intelligent Energy</h2>
+<p>contact@novasolarai.com</p>
+</section>
+
+<footer>
+© 2026 NovaSolar AI | Autonomous Renewable Intelligence
+</footer>
+
+</body>
+</html>
